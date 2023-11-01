@@ -1,0 +1,78 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452)
+  }
+  .calculator{
+    width: 250px;
+    border: 1px solid grey;
+    padding: 25px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px gray;
+  }
+  input{
+    width: 80%;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+   /* box-shadow: 0px 3px 15px  rgba(57, 57, 57, 0.815);*/
+    font-size: 40px;
+    text-align: right;
+
+    cursor: pointer;
+    color: #ffffff;
+  }
+  input::placeholder{
+    color: #ffffff;
+  }
+  button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    box-shadow: -8px -8px 15px rgb(19, 18, 18);
+    cursor: pointer;
+  }
+  .btn1{
+    background-color: orangered;
+  }
+  .btn2{
+    color: rgb(6, 248, 6);
+  }
+  .btn3{
+    color: rgb(6, 248, 6);
+  }
+  .btn4{
+    color: rgb(6, 248, 6);
+  }
+  .btn5{
+    color: rgb(6, 248, 6);
+  }
+  .btn6{
+    color: rgb(6, 248, 6);
+  }
+  .btn7{
+    color: rgb(6, 248, 6);
+  }
+  
+  .btn8{
+    color: rgb(6, 248, 6);
+  }
+  
+
+
